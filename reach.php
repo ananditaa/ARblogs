@@ -48,8 +48,8 @@ img{
     <hr>
     <br>
     <p style="font-family: cursive;font-size: 15px;"> Click anywhere on the image to go back to our blog </p>
-    <a href="https://github.com/ananditaa/ARblogs/index.html" target="_blank"> 
-        <img src="https://github.com/ananditaa/ARblogs/subscribe-bg.jpg" alt="subscribe success" style="width:50%;"> 
+    <a href="https://ananditaa.github.io/ARblogs/index.html" target="_blank"> 
+        <img src="https://ananditaa.github.io/ARblogs/subscribe-bg.jpg" alt="subscribe success" style="width:50%;"> 
     </a>
   
   
