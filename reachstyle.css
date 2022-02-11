@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container-reach{
+    padding: 3rem 2rem 2rem 2rem;
+    /* border: 1px solid rgba(0, 0, 0, 0.5); */
+    width: 100%;
+    /* height: calc(100vh - 117px - 85px); */
+    background: linear-gradient(130deg,#21a9af,#172a74);
+    color: #fff;
+}
+ /* i{
+    color: black;
+} */
+.contact-form label i{
+    color: black;
+}
+.heading-text{
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+
+.contact-form form{
+    width: 300px;
+    padding-top: 2rem;
+    position: relative;
+}
+
+
+ 
+@media screen and (max-width:361px) {
+
+    .contact-form form{
+        width: 230px;
+    }
+    .container-reach{
+        padding: 2rem 1.3rem 1.5rem 1.3rem;
+    }
+    
+}
+
+
+
+.field-item input{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding-left: 0.3rem;
+    height: 2rem;
+    background: transparent;
+    border-radius: 13px;
+    color: #fff;
+    
+}
+.field-item{
+    margin-bottom: 3rem;
+    position: relative;
+}
+.contact-form label{
+    position: absolute;
+    top: -29px;
+    left: 3px;
+    transition: 0.3s;
+    z-index: 12;
+    height: 100%;
+    display: block;
+    cursor: pointer;
+    
+    
+    
+
+}
+.field-item input:focus{
+    border: 2px solid rgb(255, 255, 255);
+
+}
+
+
+.field-text{
+    margin-bottom: 1rem;
+    position: relative;
+    
+}
+.field-text textarea{
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 0.3rem 0.3rem;
+    background: transparent;
+    border-radius: 13px;
+    color: #fff;
+    cursor: text;
+}
+
+textarea:focus{
+    border: 2px solid rgb(255, 255, 255);
+}
+.submit-btn .btn-s{
+    cursor: pointer;
+    padding: 0.3rem 0.8rem;
+    border: 1px solid rgb(49, 47, 47);
+    background: white;
+    border-radius: 13px;
+    color: black;
+    font-weight: 700;
+    outline: none;
+}
+@media screen and (min-width:700px) {
+    .container-reach{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        /* height: calc(100vh - 117px - 85px); */
+    }
+    .heading-text h3{
+        text-align: center;
+        word-spacing: 7px;
+        letter-spacing: 3px;
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+    .heading-text p{
+        text-align: center;
+        word-spacing: 5px;
+        margin-top: 1rem ;
+        margin-bottom: 1rem;
+    }
+    .contact-form form{
+        width: 400px;
+        padding-top: 2rem;
+    }
+    .submit-btn{
+        text-align: center;
+    }
+    
+}

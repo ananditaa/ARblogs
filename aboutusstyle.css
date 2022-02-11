@@ -1,0 +1,66 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+   
+}
+
+.flex-left h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    
+}
+.flex-left p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    
+    font-size: 1rem;
+}
+
+.About-sec{
+    padding: 2rem 1.3rem;
+    
+}
+img{
+    max-width: 100%;
+}
+
+.border-design{
+    border-radius: 34% 66% 68% 32% / 40% 40% 60% 60% ;
+    background-color: aquamarine;
+}
+
+
+
+
+/* ------------large screen------------------ */
+@media screen and (min-width:800px) {
+    .About-sec{
+        max-width: 1200px;
+        margin: 0 auto;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+    } 
+    .about-container{
+        display: flex;
+        justify-content: space-between;
+    } 
+    .flex-right{
+        width: 40%;
+    }
+    .flex-left{
+        width: 50%;
+    }
+    .flex-left h2{
+        font-size: 2.2rem;
+    }
+    .flex-left p{
+        font-size: 1.25rem;
+        line-height: 2;
+    }
+    
+    
+}
