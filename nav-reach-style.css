@@ -282,7 +282,7 @@ h2.main-heading{
   text-align: center;
 }
 @media screen and (max-height: 400px) {
-  .contact-form {
+  .container-reach, .contact-form {
     position: static;
     transform: none;
   }
