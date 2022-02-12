@@ -281,6 +281,11 @@ h2.main-heading{
   color: white;
   text-align: center;
 }
+@media screen and (max-height: 400px) {
+  .contact-form {
+    position: static;
+    transform: none;
+  }
 
 
 
