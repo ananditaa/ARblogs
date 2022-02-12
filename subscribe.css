@@ -1,7 +1,7 @@
 .bg {
     width: 100%;
 /*     height: auto; */
-    min-height: 100vh;
+/*     min-height: 100vh; */
     background-size: 100% 100%;
     background-position: top center;
 }
@@ -72,5 +72,11 @@ input:focus {
     .bg{
        min-height: calc(100vh - 194px);
     }
-}   
+}
+@media screen and (max-width:340px){
+    .bg{
+       min-height: calc(100vh - 218px);
+    }
+}
+
 
