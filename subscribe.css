@@ -68,4 +68,9 @@ input:focus {
        min-height: calc(100vh - 202px);
     }
 }
+@media screen and (max-width:765px){
+    .bg{
+       min-height: calc(100vh - 194px);
+    }
+}   
 
