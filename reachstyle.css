@@ -141,13 +141,13 @@ textarea:focus{
     }
     
 }
-/* @media screen and (max-width:763px){
+@media screen and (max-width:763px){
     .container-reach{
-        height: calc(100vh - 194px);
+        min-height: calc(100vh - 194px);
     }
 }
 @media screen and (max-width:334px){
     .container-reach{
-        height: calc(100vh - 218px);
+        min-height: calc(100vh - 218px);
     }
-} */
+}
