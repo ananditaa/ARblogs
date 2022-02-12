@@ -224,7 +224,7 @@ h2.main-heading{
     border-radius: 15px;
     border: 2px solid rgba(0, 0, 0, 0.5);
 }*/
-.btn{
+/* .btn{
     margin-top: 0.5rem;
     padding: 0.5rem 0.8rem;
     border: 2px solid transparent;
@@ -235,7 +235,7 @@ h2.main-heading{
 }
 .btn:hover{
     transform: scale(1.1);
-}  
+}   */
 /* @media screen  and (max-width:456px){
     .text{
         font-size: 0.9rem;
