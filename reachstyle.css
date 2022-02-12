@@ -25,7 +25,7 @@
 
 
 .contact-form form{
-    width: 300px;
+    width: 100%;
     padding-top: 2rem;
     position: relative;
 }
@@ -35,10 +35,13 @@
 @media screen and (max-width:361px) {
 
     .contact-form form{
-        width: 230px;
+        width: 100%;
+        height:100%;
     }
     .container-reach{
         padding: 2rem 1.3rem 1.5rem 1.3rem;
+        width:100%;
+        height:100%;
     }
     
 }
@@ -47,6 +50,7 @@
 
 .field-item input{
     width: 100%;
+    height:100%;
     border: 1px solid #ccc;
     outline: none;
     padding-left: 0.3rem;
@@ -114,6 +118,7 @@ textarea:focus{
     .container-reach{
         display: flex;
         width: 100%;
+        height:100%;
         align-items: center;
         flex-direction: column;
         justify-content: center;
