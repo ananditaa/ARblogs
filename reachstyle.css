@@ -32,8 +32,7 @@
 }
 
 
- 
-@media screen and (max-width:361px) {
+/* @media screen and (max-width:361px) {
 
     .contact-form form{
         width: 230px;
@@ -42,7 +41,7 @@
         padding: 2rem 1.3rem 1.5rem 1.3rem;
     }
     
-}
+} */
 
 
 
@@ -111,7 +110,12 @@ textarea:focus{
     font-weight: 700;
     outline: none;
 }
-@media screen and (min-width:700px) {
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
     .container-reach{
         display: flex;
         align-items: center;
@@ -139,5 +143,274 @@ textarea:focus{
     .submit-btn{
         text-align: center;
     }
-    
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+    .container-reach{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        /* height: calc(100vh - 117px - 85px); */
+    }
+    .heading-text h3{
+        text-align: center;
+        word-spacing: 7px;
+        letter-spacing: 3px;
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+    .heading-text p{
+        text-align: center;
+        word-spacing: 5px;
+        margin-top: 1rem ;
+        margin-bottom: 1rem;
+    }
+    .contact-form form{
+        width: 400px;
+        padding-top: 2rem;
+    }
+    .submit-btn{
+        text-align: center;
+    }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+    .container-reach{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        /* height: calc(100vh - 117px - 85px); */
+    }
+    .heading-text h3{
+        text-align: center;
+        word-spacing: 7px;
+        letter-spacing: 3px;
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+    .heading-text p{
+        text-align: center;
+        word-spacing: 5px;
+        margin-top: 1rem ;
+        margin-bottom: 1rem;
+    }
+    .contact-form form{
+        width: 400px;
+        padding-top: 2rem;
+    }
+    .submit-btn{
+        text-align: center;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+    .container-reach{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        /* height: calc(100vh - 117px - 85px); */
+    }
+    .heading-text h3{
+        text-align: center;
+        word-spacing: 7px;
+        letter-spacing: 3px;
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+    .heading-text p{
+        text-align: center;
+        word-spacing: 5px;
+        margin-top: 1rem ;
+        margin-bottom: 1rem;
+    }
+    .contact-form form{
+        width: 400px;
+        padding-top: 2rem;
+    }
+    .submit-btn{
+        text-align: center;
+    }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+    .container-reach{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        /* height: calc(100vh - 117px - 85px); */
+    }
+    .heading-text h3{
+        text-align: center;
+        word-spacing: 7px;
+        letter-spacing: 3px;
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+    .heading-text p{
+        text-align: center;
+        word-spacing: 5px;
+        margin-top: 1rem ;
+        margin-bottom: 1rem;
+    }
+    .contact-form form{
+        width: 400px;
+        padding-top: 2rem;
+    }
+    .submit-btn{
+        text-align: center;
+    }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+    .container-reach{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        /* height: calc(100vh - 117px - 85px); */
+    }
+    .heading-text h3{
+        text-align: center;
+        word-spacing: 7px;
+        letter-spacing: 3px;
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+    .heading-text p{
+        text-align: center;
+        word-spacing: 5px;
+        margin-top: 1rem ;
+        margin-bottom: 1rem;
+    }
+    .contact-form form{
+        width: 400px;
+        padding-top: 2rem;
+    }
+    .submit-btn{
+        text-align: center;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+    .container-reach{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        /* height: calc(100vh - 117px - 85px); */
+    }
+    .heading-text h3{
+        text-align: center;
+        word-spacing: 7px;
+        letter-spacing: 3px;
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+    .heading-text p{
+        text-align: center;
+        word-spacing: 5px;
+        margin-top: 1rem ;
+        margin-bottom: 1rem;
+    }
+    .contact-form form{
+        width: 400px;
+        padding-top: 2rem;
+    }
+    .submit-btn{
+        text-align: center;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+    .container-reach{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        /* height: calc(100vh - 117px - 85px); */
+    }
+    .heading-text h3{
+        text-align: center;
+        word-spacing: 7px;
+        letter-spacing: 3px;
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+    .heading-text p{
+        text-align: center;
+        word-spacing: 5px;
+        margin-top: 1rem ;
+        margin-bottom: 1rem;
+    }
+    .contact-form form{
+        width: 400px;
+        padding-top: 2rem;
+    }
+    .submit-btn{
+        text-align: center;
+    }
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+    .container-reach{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        /* height: calc(100vh - 117px - 85px); */
+    }
+    .heading-text h3{
+        text-align: center;
+        word-spacing: 7px;
+        letter-spacing: 3px;
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+    .heading-text p{
+        text-align: center;
+        word-spacing: 5px;
+        margin-top: 1rem ;
+        margin-bottom: 1rem;
+    }
+    .contact-form form{
+        width: 400px;
+        padding-top: 2rem;
+    }
+    .submit-btn{
+        text-align: center;
+    }
 }
