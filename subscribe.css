@@ -37,11 +37,6 @@ input::-webkit-input-placeholder {
     left: 47%
 }
 
-i {
-    padding: 5px;
-    color: white
-}
-
 input,
 input:focus {
     border: solid 1px white;
