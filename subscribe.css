@@ -18,7 +18,7 @@
 }
 
 .InputStyle {
-    border-radius: 5px;
+    border-radius: 25px;
     border: solid 1px white;
     background: transparent;
     width: 300px;
@@ -55,7 +55,7 @@ input:focus {
 .secondLine {
     font-weight: 350;
     font-size: 15px;
-    margin-bottom: 15%;
+    margin-bottom: 5%;
     color: white
 }
 
