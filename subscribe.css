@@ -16,6 +16,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.btn-bottom-margin{
+    margin-bottom:1rem;
+}
 
 .InputStyle {
     border-radius: 25px;
