@@ -5,7 +5,7 @@ function scrolling(){
     var scrolled = (winScroll/srcHeight)*100;
     document.querySelector('.progress-bar') .style.width=scrolled+'%';
 
-    console.log('hello');
+   
     var value=scrolled;
     var boxAnimation= document.getElementById('box-id');
     var coinAnimation= document.getElementById('coin-id');
@@ -19,7 +19,7 @@ function scrolling(){
         boxAnimation.classList.remove('box-animation');
         coinAnimation.classList.remove('coin-animation');
     }
-    return scrolled;
+   
    
 }
 
