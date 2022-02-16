@@ -1,18 +1,17 @@
-body {
-  background:linear-gradient(130deg, #21a9af,#172a74);
-  font-family:'Source Sans Pro', sans-serif;
+.wrapper {
+    width: 100%;
+    background: linear-gradient(130deg,#21a9af,#172a74);
+    position: relative;
 }
-section{
-  position:relative ;
-  width:100%;
-  height:100vh;
-  background:linear-gradient(130deg, #21a9af,#172a74);;
-  overflow:hidden ;
-  display:flex;
-  justify-content:center;
-  align-items:center;
+.main{
+    position: absolute;
+    top: 45vh;
+    left:4%;
+    z-index: 100;
+
+
 }
-section .set{
+.set{
   position:absolute ;
   width:100%;
   height:100%;
@@ -20,32 +19,32 @@ section .set{
   left:0;
   pointer-events:none;
 }
-section .set div{
+.set div{
   position:absolute ;
   display:block ;
 }
-section .set div:nth-child(1){
+.set div:nth-child(1){
   left:20%;
   animation:animate 15s linear infinite ;
   animation-delay:-7s;
 }
-section .set div:nth-child(2){
+.set div:nth-child(2){
   left:50%;
   animation:animate 20s linear infinite ;
   animation-delay:-5s;
 }
-section .set div:nth-child(3){
+.set div:nth-child(3){
   left:70%;
   animation:animate 20s linear infinite ;
   animation-delay:0s;
 }
-section .set div:nth-child(4){
+.set div:nth-child(4){
   left:0%;
   animation:animate 15s linear infinite ;
   animation-delay:-5s;
 }
 .set2{
-  transform:scale(2) rotateY(180deg);
+  transform:scale(1) rotateY(180deg);
   filter:blur(2px);
 }
 .set3{
@@ -79,15 +78,95 @@ section .set div:nth-child(4){
   }
 }
 
-.hori-scroll-bar {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 5px;
-    background-color: transparent;
-    z-index: 1026;
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
-.hori-scroll-bar>div {
-    height: 100%;
-    background-color: #456BED;
+
+
+.scroll-bar{
+    height: 10px;
+    width: 100%;
+    background-color: #ccc;
+    position: sticky;
+    top: 0%;
+}
+.progress-bar{
+    height:100% ;
+    width: 0%;
+    background:linear-gradient(to right , orange,red );
+}
+.content{
+    padding: 3rem;
+}
+.container-coin{
+    position: fixed;
+
+
+}
+
+.box-img{
+    width: 150px;
+    animation-name: BoxAnimation;
+    animation-duration: 3.5s;
+    animation-iteration-count:1;
+    opacity: 0;
+}
+@keyframes BoxAnimation{
+    0%{
+        opacity: 0;
+
+    }
+    20%{
+        opacity: 1;
+        transform: scale(1.3);
+    }
+    60%{
+        opacity: 1;
+        transform: scale(1.3);
+    }
+    80%{
+        opacity: 1;
+        transform: scale(1.3);
+    }
+    100%{
+        opacity: 0;
+        transform: scale(1.0);
+    }
+}
+.coin-img{
+    width: 100px;
+    position: Absolute;
+    top: -13px;
+    left: 9px;
+    z-index: 99;
+    animation-name: coinAnimation;
+    animation-duration: 3.5s;
+    animation-iteration-count:1;
+    opacity: 0;
+}
+
+@keyframes coinAnimation{
+    25%{
+
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    50%{
+
+        transform: scale(2);
+        opacity: 1;
+    }
+    70%{
+
+        transform: scale(2);
+        opacity: 1;
+    }
+
+    90%{
+
+        opacity: 0;
+    }
+
+}
