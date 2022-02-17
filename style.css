@@ -183,7 +183,7 @@ h2.main-heading{
 
 .img1{
     width: 17rem;
-    height: 17rem;
+    height: 20rem;
     position: relative;
     flex: 1 1 15rem;
     margin: 1rem;
@@ -272,6 +272,7 @@ h2.main-heading{
     font-size: 0.8rem;
     font-family: 'Poppins',sans-serif;
     line-height: 1.5;
+    margin-bottom:0rem;
 }
 
 .logo-image{
