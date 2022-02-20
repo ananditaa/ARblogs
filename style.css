@@ -225,7 +225,7 @@ h2.main-heading{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-.btn-sub{
+.btn-sub,.btn-hover{
     margin-top: 0.5rem;
     padding: 0.5rem 0.8rem;
     border: 2px solid transparent;
@@ -234,7 +234,7 @@ h2.main-heading{
     transition: all 0.3s ease-in-out;
     font-weight: 900;
 }
-.btn-sub:hover{
+.btn-hover:hover{
     transform: scale(1.1);
 }
 @media screen  and (max-width:456px){
