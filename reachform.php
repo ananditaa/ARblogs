@@ -1,3 +1,26 @@
+<?php 
+
+include 'https://ananditaa.github.io/ARblogs/reach_dbconfig.php';
+
+error_reporting(0);
+
+if (isset($_POST['submit'])) { 
+    $reach_name = $_POST['reach_name']; 
+    $reach_email = $_POST['reach_email']; 
+    $reach_mssg = $_POST['reach_mssg']; 
+
+
+    $sql = "INSERT reach_details (reach_name,reach_email,reach_mssg)
+            VALUES ('$reach_name', '$reach_email','$reach_mssg')";
+    $result = mysqli_query($conn, $sql);
+    if ($result) {
+        echo "<script>alert('We received your message!')</script>";
+    } else {
+        echo "<script>alert('There was a problem in sending the message :(')</script>";
+    }
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,7 +80,7 @@
                     <p>We were waiting for your reviews! <br>Show some love people &hearts;</p>
                 </div>
                 <div class="contact-form">
-                    <form action="https://ananditaa.github.io/ARblogs/reach.php" method="POST">
+                    <form action="" method="POST">
                         <div class="field">
                             <div class="field-item">
                                 <label for="reach_name">
