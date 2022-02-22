@@ -1,3 +1,24 @@
+<?php 
+
+include 'https://ananditaa.github.io/ARblogs/comment_dbconfig.php';
+
+error_reporting(0);
+
+if (isset($_POST['s_submit'])) { 
+    $Name = $_POST['Name']; 
+    $Email = $_POST['Email']; 
+
+    $sql = "INSERT subscriber_details (Name,Email)
+            VALUES ('$Name', '$Email')";
+    $result = mysqli_query($conn, $sql);
+    if ($result) {
+        echo "<script>alert('Subscription successfull.')</script>";
+    } else {
+        echo "<script>alert('Subscription not successfull.')</script>";
+    }
+}
+
+?>
 <!DOCTYPE html>
 <html>
 
