@@ -293,13 +293,13 @@ h2.main-heading{
   bottom: 0;
   width: 100%;
   padding-bottom:5px;
-  padding-top:20px;
+/*   padding-top:20px; */
   background:linear-gradient(130deg,#00688b, #172a74);
   color: white;
   text-align: center;
 }
 .feature-section{
-  padding: 1rem;
+  padding:1.5rem 1rem 2.5rem 1rem;
   text-align: center;
   color: #fff;
   
@@ -387,7 +387,7 @@ h2.main-heading{
 
 @media screen and (max-width:420px){
   .feature-section{
-    padding: 1.5rem 0.8rem 1rem 0.8rem;
+    padding:1.5rem 0.8rem 2.3rem 0.8rem ;
   }
   .feature-section h3{
     font-size: 1.4rem;
