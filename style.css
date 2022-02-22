@@ -293,9 +293,129 @@ h2.main-heading{
   bottom: 0;
   width: 100%;
   padding-bottom:5px;
+  padding-top:20px;
   background:linear-gradient(130deg,#00688b, #172a74);
   color: white;
   text-align: center;
+}
+.feature-section{
+  padding: 1rem;
+  text-align: center;
+  color: #fff;
+  
+}
+.header-blue hr{
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 1px solid #ccc;
+  
+  border-bottom: 0;
+}
+.feature-section h3{
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  word-spacing: 7px;
+  margin-bottom: 1rem;
+}
+.emoji{
+  font-size: 1.4rem;
+  margin-right:0.35rem;
+  color: gold;
+  
+}
+.feature-input{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  width: 350px;
+  margin: 3rem auto 1rem auto;
+
+}
+
+.feature-input input{
+  width: 100%;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid silver;
+  justify-self: center;
+  caret-color: #fff;
+  padding: 5px 5px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+.feature-input label{
+  position: absolute;
+  left: 5%;
+  top: 1.3rem;
+  transition:all 0.3s ease;
+  display: inline-block;
+  font-size: 1.2rem;
+}
+.feature-input input:focus,.feature-input input:valid{
+  border-bottom: 2px solid #fff;
+}
+.feature-input input:focus +  label,.feature-input input:valid +  label {
+  top:-9px;
+  font-size: 0.85rem;
+}
+.feature-button button{
+  padding: 0.6rem 1rem 0.6rem 1rem;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
+  border-radius: 10px;
+  margin-top: 1rem;
+  cursor: pointer;
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  outline: none;
+  font-weight: 600;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+  
+}
+.feature-button button:hover{
+  background: black;
+}
+
+@media screen and (max-width:420px){
+  .feature-section{
+    padding: 1.5rem 0.8rem 1rem 0.8rem;
+  }
+  .feature-section h3{
+    font-size: 1.4rem;
+
+  }
+  .emoji{
+
+  }
+  .feature-input{
+    margin: 1.5rem auto 1rem auto;
+    width: 90vw;
+  }
+  .feature-input input{
+    font-size: 0.85rem;
+  }
+  .feature-input label{
+    font-size: 1rem;
+  }
+  .feature-input input:focus +  label,.feature-input input:valid +  label {
+    top:-9px;
+    font-size: 0.65rem;
+  }
+  .feature-button button{
+    padding: 0.4rem 0.7rem 0.4rem 0.7rem;
+    font-size: 0.7rem;
+    margin-top: 0;
+  }
+
 }
 
 
