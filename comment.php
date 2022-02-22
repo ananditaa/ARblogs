@@ -2,11 +2,11 @@
 
 include 'https://ananditaa.github.io/ARblogs/comment_dbconfig.php';
 
-error_reporting(0); // For not showing any error
+error_reporting(0);
 
-if (isset($_POST['submit'])) { // Check press or not Post Comment Button
-	$c_name = $_POST['c_name']; // Get Name from form
-	$c_comment = $_POST['c_comment']; // Get Comment from form
+if (isset($_POST['submit'])) { 
+	$c_name = $_POST['c_name']; 
+	$c_comment = $_POST['c_comment']; 
 
 	$sql = "INSERT INTO comment_table (c_name,c_comment)
 			VALUES ('$c_name', '$c_comment')";
