@@ -15,6 +15,7 @@
 .flex-left p{
     font-family: 'Poppins', sans-serif;
     line-height: 1.8;
+    text-align:justify;
     
     font-size: 1rem;
 }
