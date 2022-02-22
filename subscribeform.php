@@ -88,7 +88,7 @@ if (isset($_POST['s_submit'])) {
                         <p> <input class="InputStyle" placeholder="Enter your name &#9893; " style="font-family:Arial, FontAwesome" type="text" name="Name" id="Name"> </p>
                         <p> <input class="InputStyle" placeholder="Enter your email address &#xf0e0; " style="font-family:Arial, FontAwesome" type="email" name="Email" id="Email"> </p>
                         <br>
-                        <button type="submit" class="btn btn-light action-button btn-bottom-margin" >Submit</button>
+                        <button name="submit" type="submit" class="btn btn-light action-button btn-bottom-margin" >Submit</button>
                     </div>
                 </div>
             </form>
