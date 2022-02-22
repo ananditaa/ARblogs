@@ -68,13 +68,13 @@ if (isset($_POST['s_submit'])) {
                     </button>
                     <div class="collapse navbar-collapse" id="navcol-1">
                         <ul class="nav navbar-nav">
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="https://ananditaa.github.io/ARblogs/reach.html">Reach Out to Us</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="https://ananditaa.github.io/ARblogs/reachform.php">Reach Out to Us</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link" href="https://ananditaa.github.io/ARblogs/aboutus.html">About Us</a></li>
                         </ul>
                         <form class="form-inline mr-auto" target="_self">
                             <div class="form-group"><label for="search-field"><i class="fa fa-search"></i></label><input class="form-control search-field" type="search" name="search" id="search-field"></div>
                         </form>
-                        <a class="btn btn-light action-button" role="button" href="https://ananditaa.github.io/ARblogs/subscribe.html">Subscribe</a>
+                        <a class="btn btn-light action-button" role="button" href="https://ananditaa.github.io/ARblogs/subscribeform.php">Subscribe</a>
                     </div>
                 </div>
             </nav>
