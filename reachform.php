@@ -99,7 +99,7 @@ if (isset($_POST['submit'])) {
                             <textarea name="reach_mssg" id="reach_mssg" required></textarea>
                         </div>
                         <div class="submit-btn">
-                            <button type="submit" class="btn-s">Submit <i class="fas fa-paper-plane"></i></button>
+                            <button name="submit" type="submit" class="btn-s">Submit <i class="fas fa-paper-plane"></i></button>
                         </div>
                     </form>
                 </div>
