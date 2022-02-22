@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "reach_details";
+$dbname = "subscribe_db";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 if (!$conn) { // If Check Connection
