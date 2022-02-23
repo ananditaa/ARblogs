@@ -136,6 +136,65 @@ img{
 
 }
 
+.like-container{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.like-btn{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    cursor: pointer;
+    background-color: rgb(49, 47, 47);
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    outline: none;
+    width: 110px;
+}
+.like-icon i{
+    font-size: 1.3rem;
+    color: white;
+    transition: all 0.1s ease;
+    
+}
+.like-text{
+    font-size: 1rem;
+    color: white;
+    margin-left: 10px;
+    letter-spacing: 2.5px;
+}
+
+@media  screen and (max-width:600px) {
+
+    .like-container{
+        margin-top: 0.6rem;
+        margin-bottom: 0.6rem;
+    }
+    .like-btn{
+        padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+        cursor: pointer;
+        background-color: rgb(49, 47, 47);
+        border-radius: 5px;
+        border: none;
+        display: flex;
+        align-items: center;
+        outline: none;
+        width: 85px;
+    }
+    .like-icon i{
+        font-size: 1rem;
+        color: white;
+        transition: all 0.1s ease;
+    }
+    .like-text{
+        font-size: 0.7rem;
+        color: white;
+        margin-left: 10px;
+        letter-spacing: 2.5px;
+    }
+}
+
+
 
 
 
